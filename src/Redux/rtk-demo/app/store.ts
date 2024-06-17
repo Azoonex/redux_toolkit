@@ -6,6 +6,7 @@ const store = configureStore({
          cake : cakeSlice,
          icecream :icecreamSlice,
     },
+    devTools: true
 });
 
 export default store
