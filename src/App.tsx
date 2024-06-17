@@ -1,12 +1,12 @@
 
 import React from "react";
-import Products from "./components/Products";
+import CakeView from "./Redux/rtk-demo/features/cake/CakeView";
+import IcecreameView from "./Redux/rtk-demo/features/icecream/IcecreameView";
 const App: React.FC = () => {
     return (
         <div>
-            <h1 className="text-7xl">app.tsx for is bast</h1>
-            <Products title="reza" id="22" />
-            
+           <CakeView />
+            <IcecreameView />
         </div>
     );
 };
