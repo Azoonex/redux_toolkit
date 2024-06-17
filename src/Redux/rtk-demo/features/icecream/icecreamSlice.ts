@@ -14,7 +14,7 @@ const icecreamSlice = createSlice({
         restocked : (state,action)=> {
             state.numOfIcecream += action.payload
         }
-    }
+    },
 })
 
 module.exports = icecreamSlice.reducer;
