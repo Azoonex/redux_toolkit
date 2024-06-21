@@ -1,5 +1,4 @@
 import ProductTypeProps from '../type/type';
-import svgre from '/vite.svg' 
 
 const Products: React.FC<ProductTypeProps>=({title,id})=> {
     const submitHandler = (event:React.MouseEvent<HTMLButtonElement,MouseEvent>)=>{
